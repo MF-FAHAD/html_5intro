@@ -1,6 +1,7 @@
 nav > ul{
     display: flex;
 }
+/* > this sign means navs immediate child shows  */
 nav li{
     list-style: none;
     margin-right: 10px;
@@ -9,3 +10,14 @@ nav li:hover{
     background-color: aqua;
 }
 /* this hover means when we switch mouse cursor on any button this time we can see a shed, its indicate the button.  */
+
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: lightyellow;
+}
+/* we dit display none because its always show the nested lists, thats not our intention. */
+nav li:hover .dropdown{
+    display: block;
+}
+/* here li:hover .dropdown means when we move the cursor on table then show other list.  */
