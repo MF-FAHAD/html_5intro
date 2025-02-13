@@ -1,0 +1,11 @@
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 10px;
+}
+nav li:hover{
+    background-color: aqua;
+}
+/* this hover means when we switch mouse cursor on any button this time we can see a shed, its indicate the button.  */
