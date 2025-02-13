@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Shop</title>
+    <style>
+        label{
+            display: block;
+            /* dispaly block means every label filed shows on the screen in separate line  */
+            margin: 10px;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <section>
+            <h2>Fill Up The Form </h2>
+
+            <form >
+                <label for="name ">   Your Name:
+                    <input id="name" type="text" placeholder="Enter Your Name ">  
+                </label>
+
+                <label for="email"> Your Email: 
+                    <input type="email" name="" id="email" placeholder="Enter Your Email">
+                </label>
+
+                <label for="Number">Your Number:
+                    <input type="number" name="" id="number" placeholder="Enter Your Number">
+                </label>
+
+                <fieldset>
+                    <legend>Peak One Item</legend>
+                    <label for="Mojo">
+                        <input type="radio" name="drinks" id="Mojo">Mojo
+
+                        <!-- input type radio means-- this tag give us to choose one option at a time, for this behavior every name must be same.  -->
+                    </label>
+                    <label for="Clemon">
+                        <input type="radio" name="drinks" id="Clemon">Clemon
+                    </label>
+                    <label for="Piz Up">
+                        <input type="radio" name="drinks" id="Piz Up">Piz Up
+                    </label>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Peak One or More</legend>
+                    <label for="Potato">
+                        <input type="checkbox" name="Grocery" id="Potato">Potato
+                    </label>    
+                    <label for="Tomato ">
+                        <input type="checkbox" name="Grocery" id="Tomato">Tomato
+                    </label>
+                    <label for="Onion ">
+                        <input type="checkbox" name="Grocery" id="Onion">Onion
+                    </label>
+                    
+                </fieldset>
+                <fieldset>
+                    <legend>Special Instruction</legend>
+                    <!-- legend for box with name  -->
+
+                    <textarea name="" id="" cols="40" rows="8">Enter Your Text </textarea>
+
+                </fieldset>
+                <input type="reset" value="Reset ">
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

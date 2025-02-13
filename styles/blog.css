@@ -1,0 +1,17 @@
+nav>ul>li{
+    display: inline;
+    margin-right: 20px;
+    text-align: center;
+}
+footer{
+    margin-top: 30px;
+    text-align: center;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.audcen{
+    display: block;
+    margin: 0 auto;
+}
